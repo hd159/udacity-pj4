@@ -8,8 +8,8 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
     - groups:
       - system:masters
-        rolearn: arn:aws:iam::204583295443:role/UdacityFlaskDeployCBKubectlRole
-        username: build  
+      rolearn: arn:aws:iam::204583295443:role/UdacityFlaskDeployCBKubectlRole
+      username: build  
 kind: ConfigMap
 metadata:
   creationTimestamp: "2022-05-29T13:50:21Z"
